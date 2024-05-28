@@ -1,0 +1,50 @@
+/* Estilos para los contenedores de formulario y etiquetas de lista */
+.form-container,
+.list-label {
+    display: flex; /* Mostrar como flexbox */
+    flex-direction: column; /* Dirección de los elementos: columna */
+    align-items: center; /* Centrar elementos horizontalmente */
+    justify-content: center; /* Centrar elementos verticalmente */
+    width: 70%; /* Ancho relativo del formulario */
+    max-width: 800px; /* Ancho máximo del formulario */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #000000; /* Borde sólido de color negro */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    margin: 0 auto; /* Centrar horizontalmente */
+    background-color: #4A6D8C; /* Color de fondo */
+    text-transform: uppercase; /* Transformar texto a mayúsculas */
+    color: white; /* Color de texto */
+    font-size: 18px; /* Tamaño de fuente */
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* Estilos para los botones */
+.btn-add,
+.btn-delete {
+    text-align: center; /* Alinear texto al centro */
+    width: 100%; /* Ancho completo */
+    max-width: 400px; /* Ancho máximo de los botones */
+    margin: 20px auto; /* Centrar horizontalmente y agregar espacio superior e inferior */
+    margin-bottom: 10px; /* Separación inferior */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #E9F1F2; /* Color de fondo */
+    border: 2px solid #007bff; /* Borde sólido de 2px azul */
+    border-radius: 20px; /* Borde redondeado */
+    color: #007bff; /* Color del texto */
+}
+
+.btn-add:hover,
+.btn-delete:hover {
+    background-color: #cde0f7; /* Cambio de color al pasar el cursor */
+}
+
+/* Estilos para el contenedor principal */
+main {
+    padding-top: 60px; /* Espaciado superior */
+    background-color: #E9F1F2; /* Color de fondo */
+    padding-bottom: auto; /* Espaciado inferior automático */
+    text-align: center; /* Alinear contenido al centro */
+}
